@@ -24,6 +24,7 @@ var paragraph05 = "<p>Knowing that no one lived on the island, the " + properNou
 
 var paragraph06 = "<p>As the " + properNoun2 + " started " + verbIng1 + " away, he answered, \“That is easy. As you are the only creature on this island, you will naturally be the " + adjective3 + " king!\”"
 
+document.write("Here is the story that we wrote together...")
 document.write(title);
 document.write(paragraph01);
 document.write(paragraph02);
