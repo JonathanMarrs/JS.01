@@ -1,6 +1,9 @@
 alert("I want to write a story, but I need your help.  Can you give me a few words to help me finish things up?")
 
-var properNoun1 = prompt("Give me a Proper Noun, please.");
+var questions = 8;
+var questionsLeft = " [" + questions + " questions left]"
+
+var properNoun1 = prompt("Give me a Proper Noun, please." + questionsLeft);
 var properNoun2 = prompt("Give me another Proper Noun, thank you very much.");
 var pluralNoun1 = prompt("I'd like a Plural Noun, if you don't mind.");
 var tranportation1 = prompt("You should now type a form of transportation.");
